@@ -1,7 +1,7 @@
 // Introduction.js
 import React from 'react';
 import Image from 'next/image';
-import styles from './Mentalhealth.module.css';
+import styles from './MentalHealth.module.css';
 
 function MentalHealth() {
     return (
