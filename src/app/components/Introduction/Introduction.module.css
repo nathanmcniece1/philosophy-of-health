@@ -1,56 +1,42 @@
 /* Introduction.module.css */
 
-.share {
-    margin-right: 10px;
-}
-
 .textContainer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Aligns children (h2 and gridContainer) to the start of the cross axis */
+    align-items: flex-start;
     width: 85%;
     max-width: 600px;
     margin: 20px auto; /* Centers the textContainer while keeping the top and bottom margin */
-    
+    min-width: 300px; /* Ensures minimum width of the container */
 }
 
 .introHeading {
-    text-align: left; /* Aligns the text to the left */
-    margin: 0; /* Removes any default margin */
-    padding-left: 0px; /* Assuming gridRow has 12px padding, adjust if different */
-    margin-bottom: 20px;
-    width: 100%; /* Ensures the heading takes full width of its parent */
-    /* ... your existing styles for introHeading ... */
-    margin-top: 20px;
+    text-align: left;
+    margin: 20px 0 20px 0; /* Consolidated margin properties */
+    width: 100%;
 }
-
 
 .gridContainer {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
-    gap: 0px;
     border: 1px solid #E6E6E6;
     border-radius: 20px;
     overflow: hidden;
-    margin: 20px;
-    margin-top: 10px;
+    margin: 10px auto 20px; /* Added auto to center the grid, adjusted top and bottom margin */
     width: 100%;
     max-width: 600px;
     min-width: 300px;
-    margin: auto;
     box-shadow: 0 1px 12px -4px rgb(232, 225, 225);
     background-color: white;
 }
 
 .gridRow {
     padding: 12px;
-    text-align: center;
+    text-align: start;
     border-top: 1px solid whitesmoke;
     color: rgb(0, 0, 0);
-    /* font-family: 'Roboto Mono', monospace; */
     font-weight: 400;
-    justify-content: start;
     display: flex;
     align-items: center;
     font-size: 16px;
@@ -65,13 +51,8 @@
     border-top: none;
 }
 
-/* Additional styles for rounded corners on specific rows if needed */
-/*
-.gridRow:first-child {
-    border-radius: 49px 49px 0 0;
+.share {
+    margin-right: 10px;
 }
-.gridRow:last-child {
-    border-radius: 0 0 49px 49px;
-}
-*/
 
+/* Removed commented-out styles and duplicate blocks */
