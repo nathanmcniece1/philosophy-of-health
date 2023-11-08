@@ -1,0 +1,17 @@
+.menuIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px; /* Slightly reduced from 10px */
+    width: 40px; /* Reduced from 50px */
+    height: 40px; /* Reduced from 50px */
+    border: solid 1px #E6E6E6;
+    border-radius: 50%;
+  }
+  
+  
+  .menuIcon:hover {
+    background-color: #E6E6E6;
+  }

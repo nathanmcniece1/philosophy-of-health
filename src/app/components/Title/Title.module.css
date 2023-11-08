@@ -1,0 +1,21 @@
+.title {
+    display: flex; /* Establish flex container */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically if needed */
+    text-align: center; /* Center text within the children */
+  }
+  
+  .health {
+    font-weight: 900;
+    font-size: 32px;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .light {
+    font-weight: 300;
+    margin: 0; /* Remove default margin */
+    font-size: 14px;
+  }
+
+  
