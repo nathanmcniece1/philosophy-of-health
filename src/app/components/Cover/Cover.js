@@ -7,8 +7,8 @@ function Cover() {
         <Image
           className={styles.cover}
           src="/images/cover.png"
-          width={250}
-          height={350}
+          width={190}
+          height={250}
           alt="Cover"
         />
       </div>

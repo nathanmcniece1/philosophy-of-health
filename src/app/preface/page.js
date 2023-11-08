@@ -1,9 +1,17 @@
 import React from 'react';
 import styles from './Preface.module.css'
+import Image from 'next/image';
 
 function Preface() {
   return (
     <main className={styles.container}>
+        <Image 
+        className={styles.shape}
+        src="/images/circle.png"
+        width={200}
+        height={200}
+        alt="circle"
+        />
         <h2 className={styles.introduction}>Introduction</h2>
         <div className={styles.line}></div>
         <p className={styles.chapter}>Chapter 1</p>
