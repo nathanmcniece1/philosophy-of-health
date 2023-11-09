@@ -5,7 +5,7 @@ function Philosophy() {
   return (
     <main className={styles.container}>
         <div className={styles.box}>
-        <h3 className={styles.preface}>What Is Philosophy?</h3>
+        <h3 className={styles.preface}>The Philosophy Of Health</h3>
       <p className={styles.content}>
       Philosophy is the pursuit of Knowledge. There are a number of ways to define philosophy, but this one - at least to my mind - comes as close to capturing its essence as any. Of course, it’s a rather loaded definition, for What is ‘Knowledge’? However, if we shelve that pickle for the moment and let our common sense understanding of Knowledge stand - as a synonym for the Truth and Wisdom (also loaded terms, but not to worry) - we have ourselves a perfectly fine definition of the philosophical enterprise.   <br></br><br></br>
 

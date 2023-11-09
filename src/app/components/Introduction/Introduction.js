@@ -59,7 +59,7 @@ function Introduction() {
                         width={30} 
                         height={30}
                     />
-                    Philosophy Is Dead, So What?
+                    <Link href="/deadphilosophy">Philosophy Is Dead, So What?</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -69,7 +69,7 @@ function Introduction() {
                         width={30} 
                         height={30}
                     />
-                    The Philosophy of Health
+                    <Link href="/philosophyofhealth">The Philosophy Of Health</Link>
                 </div>
             </div>
         </div>
