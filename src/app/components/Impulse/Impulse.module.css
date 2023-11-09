@@ -8,11 +8,13 @@
     max-width: 600px;
     margin: 20px auto; /* Centers the textContainer while keeping the top and bottom margin */
     min-width: 300px; /* Ensures minimum width of the container */
+    margin-bottom: -20px;
 }
 
 .introHeading {
     text-align: left;
-    margin: 20px 0 20px 0; /* Consolidated margin properties */
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
 }
 

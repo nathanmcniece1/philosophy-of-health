@@ -29,7 +29,7 @@ function Introduction() {
                         width={30} 
                         height={30}
                     />
-                    Welcome To Philosophy
+                    <Link href="/welcome">Welcome To Philosophy</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -39,7 +39,7 @@ function Introduction() {
                         width={30} 
                         height={30}
                     />
-                    What Is Philosophy?
+                    <Link href="/philosophy">What Is Philosophy?</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -49,7 +49,7 @@ function Introduction() {
                         width={30} 
                         height={30}
                     />
-                    A 'Philosophy of Life'
+                    <Link href="/lifephilosophy">A 'Philosophy of Life'</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
