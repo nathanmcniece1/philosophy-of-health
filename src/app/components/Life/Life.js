@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './Life.module.css'; // Importing the new CSS module
+import Link from 'next/link';
 
 function Life() {
     return (
@@ -18,7 +19,7 @@ function Life() {
                         width={30} 
                         height={30}
                     />
-                    The Current Consensus
+                    <Link href="/consensus">The Current Consensus</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -28,7 +29,7 @@ function Life() {
                         width={30} 
                         height={30}
                     />
-                    What Is Life?
+                    <Link href="/lifeisgood">Life Is Good</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -38,7 +39,7 @@ function Life() {
                         width={30} 
                         height={30}
                     />
-                    What Makes Life Matter
+                    <Link href="/whatislife">What Is Life?</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -48,7 +49,7 @@ function Life() {
                         width={30} 
                         height={30}
                     />
-                    Why Death Is Bad
+                  <Link href="/deathisbad">Death Is Bad</Link>
                 </div>
             </div>
         </div>
