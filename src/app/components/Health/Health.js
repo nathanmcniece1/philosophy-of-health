@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './Health.module.css'; // Importing the new CSS module
+import Link from 'next/link';
 
 function Health() {
     return (
@@ -18,7 +19,7 @@ function Health() {
                         width={30} 
                         height={30}
                     />
-                    Framing the Problem
+                    <Link href="/framing">Framing the Problem</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -28,7 +29,7 @@ function Health() {
                         width={30} 
                         height={30}
                     />
-                    Health as the Absence of Sickness
+                    <Link href="/sickness">Health as the Absence of Sickness</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -38,7 +39,7 @@ function Health() {
                         width={30} 
                         height={30}
                     />
-                    Health as Homeostasis
+                    <Link href="/homeostasis">Health as Homeostasis</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -48,7 +49,7 @@ function Health() {
                         width={30} 
                         height={30}
                     />
-                    Towards a Positive Conception of Health
+                    <Link href="/positive">Towards a Positive Conception of Health</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -58,7 +59,7 @@ function Health() {
                         width={30} 
                         height={30}
                     />
-                    Health as Well-Being
+                    <Link href="/wellbeing">Health as Well-Being</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
@@ -68,7 +69,7 @@ function Health() {
                         width={30} 
                         height={30}
                     />
-                    Health as Freedom
+                    <Link href="/freedom">Health as Freedom</Link>
                 </div>
             </div>
         </div>
