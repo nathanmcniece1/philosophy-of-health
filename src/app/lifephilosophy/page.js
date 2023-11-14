@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './LifePhilosophy.module.css'
+import Footer from '../components/Footer/Footer';
 
 function LifePhilosophy() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>A 'Philosophy of Life'</h3>
@@ -44,6 +46,8 @@ All of this simply to say that a wedge of artifice has been placed between the p
       </p>
       </div>
     </main>
+    <Footer nextTitle="Philosophy Is Dead, So What?" nextPage="/deadphilosophy"/>
+    </>
   );
 }
 

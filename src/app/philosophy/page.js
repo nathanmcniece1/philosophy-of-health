@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Philosophy.module.css'
+import Footer from '../components/Footer/Footer';
 
 function Philosophy() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>What Is Philosophy?</h3>
@@ -21,6 +23,8 @@ Around the birth of modern philosophy, when the foundation was being laid, as it
       </p>
       </div>
     </main>
+    <Footer nextTitle="A 'Philosophy of Life'" nextPage="/lifephilosophy"/>
+    </>
   );
 }
 

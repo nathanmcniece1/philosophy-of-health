@@ -1,0 +1,48 @@
+/* Footer.module.css */
+.footer {
+    padding: 20px;
+    border-top: 1px solid #E6E6E6;
+    margin-top: 6px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; /* spaces out the child divs */
+    align-items: center; /* aligns items vertically in the center */
+    /* add any other styling you need for the container */
+    max-width: 1150px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Add styles for the child divs if needed */
+  .container > div {
+    /* styles for each child div */
+  }
+  
+  .heading {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .btn {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #E6E6E6;
+    display: flex;
+    align-items: center;
+
+  }
+  
+.img {
+    margin-left: 5px;
+}

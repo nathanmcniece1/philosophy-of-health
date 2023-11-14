@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './DeadPhilosophy.module.css'
+import Footer from '../components/Footer/Footer';
 
 function DeadPhilosophy() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Philosophy Is Dead, So What?</h3>
@@ -30,6 +32,8 @@ In order to revive philosophy, to reestablish the contemplative connection with 
       </p>
       </div>
     </main>
+    <Footer nextTitle="The Philosophy of Health" nextPage="/philosophyofhealth"/>
+    </>
   );
 }
 

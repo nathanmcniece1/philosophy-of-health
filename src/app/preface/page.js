@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './Preface.module.css'
 import Image from 'next/image';
+import Footer from '../components/Footer/Footer';
 
 function Preface() {
   return (
+    <>
     <main className={styles.container}>
         <Image 
         className={styles.shape}
@@ -45,6 +47,8 @@ Musashi
       </p>
       </div>
     </main>
+    <Footer nextTitle="Welcome to Philosophy" nextPage="/welcome"/>
+    </>
   );
 }
 

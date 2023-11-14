@@ -73,6 +73,7 @@ select {
 body {
   background-color: #F6F6F6;
   color: #000000;
+  padding-top: 90px;
 }
 
 
@@ -82,7 +83,12 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: .5px solid #E6E6E6;
-  
+  position: fixed; /* Fix the header at the top */
+  top: 0; /* Align the header to the top of the viewport */
+  left: 0; /* Align the header to the left of the viewport */
+  right: 0; /* Ensure the header stretches across the full width */
+  background-color: inherit; /* Match the background color with the body or a specific color */
+  z-index: 1000; /* Ensure the header stays on top of other content */
 }
 
 .padding {

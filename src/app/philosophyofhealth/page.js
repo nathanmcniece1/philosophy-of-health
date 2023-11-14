@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './PhilosophyOfHealth.module.css'
+import Footer from '../components/Footer/Footer';
 
 function PhilosophyOfHealth() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>What Is Philosophy?</h3>
@@ -18,6 +20,8 @@ As I’ll attempt to persuade, health — not happiness, nor pleasure, nor econo
       </p>
       </div>
     </main>
+    <Footer nextTitle="Framing the Problem" nextPage="/framing"/>
+    </>
   );
 }
 

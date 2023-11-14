@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Welcome.module.css'
+import Footer from '../components/Footer/Footer';
 
 function Welcome() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Welcome to Philosophy</h3>
@@ -37,6 +39,8 @@ Lastly, as the late-great Wittgenstein said, “What can be said at all, can be 
       </p>
       </div>
     </main>
+    <Footer nextTitle="What Is Philosophy?" nextPage="/philosophy"/>
+    </>
   );
 }
 

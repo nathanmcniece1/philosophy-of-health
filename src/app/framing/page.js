@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Framing.module.css'
+import Footer from '../components/Footer/Footer';
 
 function Framing() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Framing the Problem</h3>
@@ -21,6 +23,8 @@ However, this does not mean that health is a subjective phenomenon, at least not
       </p>
       </div>
     </main>
+    <Footer nextTitle="Health as the Absence of Sickness" nextPage="/homeostasis"/>
+    </>
   );
 }
 
