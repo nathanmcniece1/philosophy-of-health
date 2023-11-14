@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Positive.module.css'
+import Footer from '../components/Footer/Footer';
 
 function Positive() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Towards a Positive Conception of Health</h3>
@@ -27,6 +29,8 @@ Now, if we’re intent on including values in our conception of health, as I say
       </p>
       </div>
     </main>
+    <Footer nextTitle="Health as Well-being" nextPage="/wellbeing"/>
+    </>
   );
 }
 

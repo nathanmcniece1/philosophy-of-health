@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Wellbeing.module.css'
+import Footer from '../components/Footer/Footer';
 
 function Wellbeing() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Health as Well-Being</h3>
@@ -25,6 +27,8 @@ So it makes sense to include well-being, as a value, into our conception of heal
       </p>
       </div>
     </main>
+    <Footer nextTitle="Health as Freedom" nextPage="/freedom"/>
+    </>
   );
 }
 

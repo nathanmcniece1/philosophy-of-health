@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Homeostasis.module.css'
+import Footer from '../components/Footer/Footer';
 
 function Homeostasis() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Health as Homeostasis</h3>
@@ -21,6 +23,8 @@ As I’ve already suggested, there has to be more to an enlightened conception o
       </p>
       </div>
     </main>
+    <Footer nextTitle="Towards a Positive Conception of Health" nextPage="/positive"/>
+    </>
   );
 }
 
