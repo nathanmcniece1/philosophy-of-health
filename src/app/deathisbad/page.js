@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './DeathIsBad.module.css'
+import Footer from '../components/Footer/Footer';
 
 function DeathIsBad() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Death Is Bad</h3>
@@ -111,6 +113,8 @@ Although the aforementioned objections are slightly different in shape as well a
       </div>
       </div>
     </main>
+    <Footer nextTitle="The Historical Background" nextPage="/background"/>
+    </>
   );
 }
 

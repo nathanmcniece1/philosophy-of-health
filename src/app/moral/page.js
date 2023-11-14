@@ -1,0 +1,36 @@
+import React from 'react';
+import styles from './Moral.module.css'
+import Footer from '../components/Footer/Footer';
+
+function Moral() {
+  return (
+    <>
+    <main className={styles.container}>
+        <div className={styles.box}>
+        <h3 className={styles.preface}>Moral Enhancement</h3>
+      <p className={styles.content}>
+      Thinking about enhancement, it should be clear by now, can be dizzying. With so much to consider, so many nuances, so many arguments, so many ways of framing things, it’s near impossible to find a position, amongst any of this, that one can adopt with any real conviction. To enhance, or not to enhance? ’Tis the question, but it’s the answer that’s the trouble. Even if we could decide on one, though, it’s far from assured that it would be the right one - morally speaking. As human beings, we are many things. Perfect moral agents, however, is not one of them. What a sober assessment of history - as well as the present moment - reveals, is that our moral intuitions very rarely cause us to converge on anything near optimal moral outcomes. Whether we choose to evaluate the performance of our implicit moral judgments at the level of society or in terms of our individual lives, the results are rather less than impressive. Part of the issue is that, instead of hard evidence, reason, or logical argument, we tend to make our moral judgments based primarily on the emotional saliency of the various alternatives. While we would never refuse to help a nearby child drowning in a shallow pond, the vast majority of us are complicit in the equivalent moral crime each and every day - by virtue of our not putting our money to the rescue of the most underprivileged lives. Of course, that’s not to say we wouldn’t like to help. For the most part, we all yearn to make a difference, to better the lives of the less fortunate - but only after we get that new car, watch or place on the beach. We want to save lives, that is, but not at the expense of our enjoyment of material comforts. 
+
+<br></br><br></br>
+
+Rather than pointing this reality out for the mere sake of chastising the entire Western world, it’s simply to show that our value systems and moral intuitions - as they are - are a long way from optimised for producing ‘maximally moral’ outcomes. Having evolved, as they did, by the same bootstrapped process as everything else, our moral faculties are half-baked, dodgy, fallible. That is, just like the rest of us. 
+<br></br><br></br>
+Knowing this, that our moral faculties are less-than-perfect, should give us cause for concern. For placed in the position, as we are, to affect immense change in our condition and therefore radically alter the human trajectory, we find ourselves with limited and highly flawed moral powers. Again, we are apes with God-like powers. On its face, this would sound like an argument against moral enhancement. Since we are highly imperfect moral agents, with highly powerful technology, it would seem to follow that we should play it safe - err on the side of caution - and intervene as little as practically possible. We don’t know what we don’t know, after all. So let’s just chill, be cool. However, this doesn’t resolve the dilemma either. For the paradox here is that, while enhancement might be a horrible idea by virtue of our janky moral compasses, by dint of the very same fact, not enhancing might be similarly disastrous. In the same way that decisions to intervene could result in immoral outcomes, so too could decisions not to enhance negatively affect our position along the moral landscape, whether that be in the short-run or deep intro the future. In other words, both acts of commission and acts of omission have the potential to harm our moral future.
+
+<br></br><br></br>
+
+In fact, what at first appears to be a particularly strong argument against enhancement, when rotated just a few degrees towards the sun, becomes a highly compelling rationale for enhancing. With respect to enhancement, the fact of the matter is we are going to make decisions that have moral consequences. Even no decision is a decision. That’s just the nature of the beast. Thus given this predicament, as well as our past and present moral performance, perhaps we should go straight for the jugular and enhance our moral faculties, our powers of wise/ethical judgment! If we are so concerned that we are ill-equipped to make the kinds of decisions that will positively affect our future, maybe we should do something about it. Rather than going after the more superficial enhancements, like better short-term memories, it seems sensible that we first ought to improve the source of our decision-making, enhance our moral arithmetic, so that all subsequent enhancements are oriented towards producing the most fair and just world imaginable. No longer would we spend so frivolously. Every surplus dollar we earn would be spent towards rescuing the world’s poorest from their proverbial shallow ponds.<br></br><br></br>
+
+Putting aside for the moment the circularity of the argument (that is, either way we must first make a decision with fallible moral powers), there is something viscerally repulsive about the notion of engineering ourselves so that we become perfect moral creatures. Intuitively, it feels as though such an “enhancement” would be a major violation of our humanity; more precisely, of the fallibility that is the very mark of our humanity. In the same way that it is our suffering and struggle that defines our character, that gives our lives its texture, it’s our wrestling with the great big juicy moral questions of our lives that infuse them with so much drama, meaning, significance. If we were to lose our fallibility, we would therefore be losing something vitally precious. Of course, it’s very likely that this kind of response is just our fallibility - our imperfection - speaking. No shit we shudder at the thought of making of us angels, for that would mean no more of the repugnant debauchery and decadence that fills our lives with so much excitement and, well yes, discontent. What’s more, if we were all perfect moral agents, being moral in such a world would provide none of the satisfaction that it does at present. To act with anything resembling moral rectitude in today’s world is to be donned a saint. In a world where we’re all bona fide saints, what’s the point of acting saintly? 
+<br></br><br></br>
+While most of us have a wholly negative reaction to the idea of moral enhancement, those in shallow ponds presumably have a very different take. It seems reasonable - if not reasonable, unsurprising - that those of us in a position of fortune and privilege would be biased against moral enhancement. On some level, perhaps we know we are living lives that are reprehensibly unfair, that we didn’t do anything to deserve them - unless of course Karma holds true - but yet we cannot bring ourselves to concede this fact. For to concede this fact would be to let go of the meritocratic illusion that we have structured society around and which fills so many of us with guiltless pride. 
+<br></br><br></br>
+      </p>
+      </div>
+    </main>
+    <Footer nextTitle="Enhancement and Ex-Risk" nextPage="/exrisk"/>
+    </>
+  );
+}
+
+export default Moral;

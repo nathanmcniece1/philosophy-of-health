@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './WhatIsLife.module.css'
+import Footer from '../components/Footer/Footer';
 
 function WhatIsLife() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>What Is Life?</h3>
@@ -28,6 +30,8 @@ To be sure, life is not inherently valuable. It is possible to have life and for
       </p>
       </div>
     </main>
+    <Footer nextTitle="Death Is Bad" nextPage="/deathisbad"/>
+    </>
   );
 }
 

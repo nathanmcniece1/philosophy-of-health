@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Sickness.module.css'
+import Footer from '../components/Footer/Footer';
 
 function Sickness() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Health as the Absence of Sickness</h3>
@@ -20,6 +22,8 @@ Moreover, what if this is all the individual has ever known? If so, we couldn’
       </p>
       </div>
     </main>
+    <Footer nextTitle="Health as Homeostasis" nextPage="/homeostasis"/>
+    </>
   );
 }
 

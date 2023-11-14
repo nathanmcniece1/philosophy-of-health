@@ -23,7 +23,7 @@ However, this does not mean that health is a subjective phenomenon, at least not
       </p>
       </div>
     </main>
-    <Footer nextTitle="Health as Homeostasis" nextPage="/homeostasis"/>
+    <Footer nextTitle="Health as the Absence of Sickness" nextPage="/sickness"/>
     </>
   );
 }

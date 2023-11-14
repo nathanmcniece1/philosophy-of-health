@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Freedom.module.css'
+import Footer from '../components/Footer/Footer';
 
 function Freedom() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Health as Freedom</h3>
@@ -61,6 +63,8 @@ When viewed through this lens, we get an interesting perspective on history. The
       </div>
       </div>
     </main>
+    <Footer nextTitle="The Current Consensus" nextPage="/consensus"/>
+    </>
   );
 }
 

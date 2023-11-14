@@ -1,15 +1,17 @@
 import React from 'react';
 import styles from './Consensus.module.css'
+import Footer from '../components/Footer/Footer';
 
 function Consensus() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>The Current Consensus</h3>
       <p className={styles.content}>
-      Take a room full of people and ask them how they feel about the notion of living forever. “Oh no absolutely not, that sounds horrible” — or some approximation thereof — is the likely to be the mean response. “Well, what about living to 200, how does that sound?”. The room would be slightly less squeamish but nevertheless still deeply uncomfortable with the idea. Now ask the room how they’d feel about the prospect of dying tomorrow, next week, next month, or, for that matter, next year. The response? Sheer terror. <br></br><br></br>
+      Take a room full of people and ask them how they feel about the notion of living forever. “Oh no absolutely not, that sounds horrible” — or some approximation thereof — is likely to be the mean response. “Well, what about living to 200, how does that sound?”. The room would be slightly less squeamish but nevertheless still deeply uncomfortable with the idea. Now ask the room how they’d feel about the prospect of dying tomorrow, next week, next month, or, for that matter, next year. The response? Sheer terror. <br></br><br></br>
 
-Now what are we to make of all this? While we have an intuition that dying tomorrow would be a tragedy, we take a very different view of what it would mean to do some distant number of years in the future. Death is bad, if it’s tomorrow, but good if it happens far enough away from the present moment? Is that the intuition? Sure seems strange.<br></br><br></br>
+Now what are we to make of all this? While we have an intuition that dying tomorrow would be a tragedy, we take a very different view of what it would mean to die some distant number of years in the future. Death is bad, if it’s tomorrow, but good if it happens far enough away from the present moment? Is that the intuition? Sure seems strange.<br></br><br></br>
 
 Ultimately, when you break it down, very few people are actually averse to the idea of living for a good while longer than is presently normal, or even indefinitely. What most people are responding to, when posed the question, is some notion of the end of life drawn out to infinity. As in, 100 years old, immobile, sick, dependent — only forever. Of course that would be horrible. <br></br><br></br>
 
@@ -21,6 +23,8 @@ Here I will argue that, contrary to the conventional reaction to the prospect of
       </p>
       </div>
     </main>
+    <Footer nextTitle="Life Is Good" nextPage="/lifeisgood"/>
+    </>
   );
 }
 

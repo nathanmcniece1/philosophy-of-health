@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './LifeIsGood.module.css'
+import Footer from '../components/Footer/Footer';
 
 function LifeIsGood() {
   return (
+    <>
     <main className={styles.container}>
         <div className={styles.box}>
         <h3 className={styles.preface}>Life Is Good</h3>
@@ -28,6 +30,8 @@ Before we get to that point in our inquiry, however, we must first get clear as 
       </p>
       </div>
     </main>
+    <Footer nextTitle="What Is Life?" nextPage="/whatislife"/>
+    </>
   );
 }
 
