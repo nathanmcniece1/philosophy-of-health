@@ -99,7 +99,7 @@
     align-items: center;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 450px) {
     .contentsContainer {
       width: 90%; /* Set width to 95% for small screens */
       left: 50%; /* Center the container horizontally */
