@@ -12,7 +12,7 @@ function Menu() {
                         <h3 className="title">The Philosophy of Health</h3>
                         <p className={styles.authorName}>Musashi</p>
                         <button className={styles.actionButton}>
-                            <Image className={styles.dwnldSmall} src="/images/download.png" alt="Download" width={20} height={20} />
+                            <Image className={styles.dwnldSmall} src="/images/whitedownload.png" alt="Download" width={20} height={20} />
                             Download
                         </button>
                     </div>

@@ -99,12 +99,16 @@
     align-items: center;
   }
 
+  .dwnldSmall {
+    margin-right: 10px;
+  }
+
   @media (max-width: 450px) {
     .contentsContainer {
       width: 90%; /* Set width to 95% for small screens */
       left: 50%; /* Center the container horizontally */
       transform: translateX(-50%); /* Adjust horizontal centering */
-      max-height: 100vh - 180px;
+      max-height: 100vh - 240px;
       
     }
   }
