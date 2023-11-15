@@ -1,25 +1,22 @@
+// RootLayout.js
 import React from 'react';
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
 import './styles.css';
 import Title from './components/Title/Title';
-import MenuIcon from './components/MenuIcon/MenuIcon';
+import MenuWrapper from './components/MenuWrapper/MenuWrapper';
 import Download from './components/Download/Download';
- 
-// If loading a variable font, you don't need to specify the font weight
+
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
-})
-
-
+});
 
 function RootLayout({ children }) {
-
   return (
     <html lang="en" className={inter.className}>
       <body>
         <header className="site-header">
-          <MenuIcon />
+          <MenuWrapper /> {/* Use MenuWrapper here */}
           <Title />
           <Download />
         </header>
@@ -30,5 +27,3 @@ function RootLayout({ children }) {
 }
 
 export default RootLayout;
-
-

@@ -1,0 +1,114 @@
+
+.contentsContainer {
+    position: absolute; /* or 'fixed' depending on layout requirements */
+    top: 115%; /* Positions the top of the menu right below the header */
+    width: 400px; /* Set the width as needed */
+    z-index: 10; /* Ensure it appears above other content */
+    background-color: #fff; /* Background color for visibility */
+    /* Add other styles as needed for padding, border, etc. */
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    max-height: calc(100vh - 100%); /* Adjust the max-height as per the header's height */
+    overflow-y: auto; /* Enables vertical scrolling */
+    box-shadow: 0px 4px 10px 2px rgba(197, 197, 197, 0.25);
+    margin-bottom: 30px;
+    max-height: 900px;
+    
+    
+}
+
+.contentsItem {
+    border-bottom: 1px solid #E6E6E6;
+    padding: 10px;
+    margin-bottom: 0;
+    padding-left: 20px;
+  }
+  
+  .contentsItem:last-child {
+    border-bottom: none;
+  }
+  
+  .contentsText {
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: center;
+  }
+  
+  .contentsHeading {
+    
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 10px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .contentsItem:hover {
+    background-color: #E8F1FF; 
+    cursor: pointer;
+  }
+
+  .smallCvr {
+    width: 100px;
+    margin-right: 20px; /* Add margin to separate from info-text */
+    box-shadow: 0 1px 10px -6px rgb(232, 225, 225);
+    margin-bottom: 3px;
+    margin-top: 2px;
+  }
+
+  .infoText {
+    flex-grow: 1; /* Allow info-text to take remaining width */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .smallTitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    align-items: center;
+  }
+  
+  .authorName {
+    
+    font-weight: 300;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 10px; /* Add margin to separate from button */
+    margin-top: 5px;
+  }
+
+  .contentInfo {
+    display: flex;
+    align-items: flex-start; /* Align children to the top */
+  }
+
+  .actionButton {
+    align-self: flex-start; /* Align the button to the top of .content-info */
+    margin-top: auto; /* Push the button to the bottom of the container */
+    border-radius: 60px;
+    border: 1px solid #D8DCFF;
+    background: linear-gradient(180deg, #535AF9 0%, rgba(4, 180, 255, 0.50) 100%);
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: helvetica;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  @media (max-width: 400px) {
+    .contentsContainer {
+        width: 95%; /* Set width to 95% for small screens */
+        margin-left: auto; /* Center the container */
+        margin-right: auto; 
+        
+    }
+}
