@@ -106,9 +106,8 @@
 
   @media (max-width: 400px) {
     .contentsContainer {
-        width: 95%; /* Set width to 95% for small screens */
-        margin-left: auto; /* Center the container */
-        margin-right: auto; 
-        
+      width: 90%; /* Set width to 95% for small screens */
+      left: 50%; /* Center the container horizontally */
+      transform: translateX(-50%); /* Adjust horizontal centering */
     }
-}
+  }
