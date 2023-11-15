@@ -1,22 +1,15 @@
 
 .contentsContainer {
     position: absolute; /* or 'fixed' depending on layout requirements */
-    top: 115%; /* Positions the top of the menu right below the header */
+    top: 105px; /* Set this to the height of your header */
     width: 400px; /* Set the width as needed */
     z-index: 10; /* Ensure it appears above other content */
     background-color: #fff; /* Background color for visibility */
-    /* Add other styles as needed for padding, border, etc. */
     border: 1px solid #E6E6E6;
     border-radius: 10px;
-    /* max-height: calc(100vh - 100%); */
-    overflow-y: scroll; /* Enables vertical scrolling */
+    overflow-y: auto; /* Enables vertical scrolling */
     box-shadow: 0px 4px 10px 2px rgba(197, 197, 197, 0.25);
-    /* margin-bottom: 30px; */
-    max-height: 900px;
-    
-    
-    
-    
+    max-height: calc(100vh - 105px); /* Subtract the header height from the viewport height */
 }
 
 .contentsItem {
