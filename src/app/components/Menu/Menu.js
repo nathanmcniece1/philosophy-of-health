@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Menu.module.css';
 import Image from 'next/image';
-import { Inter } from 'next/font/google';
 
 function Menu() {
     return (
