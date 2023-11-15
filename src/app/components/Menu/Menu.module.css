@@ -88,7 +88,7 @@
     border-radius: 60px;
     border: 1px solid #D8DCFF;
     background: linear-gradient(180deg, #535AF9 0%, rgba(4, 180, 255, 0.50) 100%);
-    padding: 12px 30px;
+    padding: 12px 20px;
     cursor: pointer;
     margin-top: 15px;
     font-family: helvetica;
@@ -108,7 +108,7 @@
       width: 90%; /* Set width to 95% for small screens */
       left: 50%; /* Center the container horizontally */
       transform: translateX(-50%); /* Adjust horizontal centering */
-      max-height: 100vh - 240px;
+      max-height: 95vh - 240px;
       
     }
   }
