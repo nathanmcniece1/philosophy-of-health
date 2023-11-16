@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './Bias.module.css'
+import styles from './Incentives.module.css'
 import Footer from '../components/Footer/Footer';
 
-function Bias() {
+function Incentives() {
   return (
     <>
     <main className={styles.container}>
@@ -42,4 +42,4 @@ There is another, related reason why reductionism holds such sway over the scien
   );
 }
 
-export default Bias;
+export default Incentives;

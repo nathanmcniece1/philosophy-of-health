@@ -59,7 +59,7 @@ function Holygrail() {
                         width={30} 
                         height={30}
                     />
-                    <Link href="/bias">The Reductionist Bias and Incentives</Link>
+                    <Link href="/incentives">The Reductionist Bias and Incentives</Link>
                 </div>
                 <div className={styles.gridRow}>
                     <Image 
