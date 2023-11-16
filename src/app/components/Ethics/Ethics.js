@@ -121,6 +121,16 @@ function Ethics() {
                     />
                     <Link href="/whattodo">What To Do?</Link>
                 </div>
+                <div className={styles.gridRow}>
+                    <Image 
+                        className={styles.share} 
+                        src="/images/arrow.png" 
+                        alt="Arrow Icon" 
+                        width={30} 
+                        height={30}
+                    />
+                    <Link href="/better">The Enhancement Impulse</Link>
+                </div>
             </div>
         </div>
     );

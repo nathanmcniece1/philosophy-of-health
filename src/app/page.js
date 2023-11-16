@@ -8,6 +8,7 @@ import Ethics from './components/Ethics/Ethics';
 import Impulse from './components/Impulse/Impulse';
 import Desire from './components/Desire/Desire';
 import MentalHealth from './components/MentalHealth/MentalHealth';
+import Holygrail from './components/Holygrail/Holygrail';
 import './styles.css';
 
 
@@ -20,7 +21,8 @@ function Home() {
       <Health />
       <Life />
       <Ethics />
-      <Impulse />
+      {/* <Impulse /> */}
+      <Holygrail />
       <Desire />
       <MentalHealth />
     </main>
