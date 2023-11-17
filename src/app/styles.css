@@ -124,8 +124,6 @@ a {
   display: block;
   text-align: center;
   margin: auto; /* Centers the container */
-  padding-left: 30px;
-  padding-right: 30px;
   
 }
 
@@ -139,6 +137,8 @@ a {
     display: flex;
     justify-content: center; /* Center the columns horizontally */
     align-items: flex-start; /* Align columns to the top */
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .left-column {
