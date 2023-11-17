@@ -111,3 +111,83 @@ a {
   font-weight: 900;
   font-size: 24px;
 }
+
+
+.outer-container {
+  max-width: 900px; /* Set the maximum width */
+  margin: auto; /* Center the container in the viewport */
+  width: 100%; /* Take the full width up to the max-width */
+  
+}
+
+.home-container {
+  display: block;
+  text-align: center;
+  margin: auto; /* Centers the container */
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+
+.left-column, .right-column {
+  width: 100%;
+}
+
+/* Larger screens layout */
+@media (min-width: 768px) {
+  .home-container {
+    display: flex;
+    justify-content: center; /* Center the columns horizontally */
+    align-items: flex-start; /* Align columns to the top */
+  }
+
+  .left-column {
+    flex: 1; /* Left column takes up less space */
+    margin-right: 5px; /* Minimal space between the columns */
+  }
+
+  .right-column {
+    flex: 2; /* Right column takes up more space */
+    margin-left: 5px; /* Minimal space from the left column */
+  }
+}
+
+/* Optional: Remove margins on smaller screens if desired */
+/* @media (max-width: 768px) {
+  .left-column, .right-column {
+    margin-right: 0;
+    margin-left: 0;
+  }
+} */
+
+.description {
+  display: none;
+}
+
+/* Show the description div when the screen width is more than 768px */
+@media screen and (min-width: 768px) {
+  .description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin-bottom: -20px;
+  }
+
+  .description-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E6E6E6;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+
+  .description-heading {
+    font-size: 20px;
+  }
+
+}
+
